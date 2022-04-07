@@ -1,0 +1,103 @@
+body{
+    background-color: rgb(34, 34, 34);
+    color: white;
+    font-family: poppinsregular;
+    max-width: 1200px; /*quanto tiver elementos ele nao se espalhar os elementos*/
+    margin: 0 auto;
+    padding: 15px;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+a:hover{
+    color: rgb(132, 13, 201);
+    transition: 0.3s all; /*efeito passa mouse mudar cor e tempo*/
+}
+
+btn-conta{
+    border: 2px solid;
+}
+
+li{
+    
+    display: inline-block; /*menu alinhar do lado do outro*/
+    margin: 20px;
+}
+
+
+#title{
+    flex-direction: column;
+    line-height: 10px;
+}
+
+h1{
+    font-weight: 200; /*afina a letra */
+}
+
+main{
+    display: flex;
+    flex-direction: row; /*aqui faz conteudo ficar de lado do outro*/
+    margin-top: 50px;
+
+}
+
+h2{
+    font-size: 56px;
+    line-height: 10px;
+    font-family: poppinsmedium;
+}
+
+span{
+    color: rgb(132, 13, 201);
+}
+
+p{
+    line-height: 20px;
+    max-width: 500px;
+    font-family: poppinslight;
+}
+
+img{
+    width: 580px;
+    padding-left: 90px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+}
+
+form [type="submit"]{
+    height:50px;
+    width:50%;
+    background-color: rgb(132, 13, 201);
+    color: white ;
+    font-weight:bold;
+    margin-top: 50px;
+}
+
+form [type="submit"]:hover{
+    cursor: pointer;
+}
+
+
+input {
+    margin-top: 20px;
+    height: 20px;
+    padding: 15px;
+    border-radius: 20px;
+    border: none;
+    font-size: 15px;
+}
+
